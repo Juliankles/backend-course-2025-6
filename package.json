@@ -1,0 +1,20 @@
+{
+  "name": "backend-course-2025-6",
+  "version": "1.0.0",
+  "description": "Лабораторна робота №6 з курсу \"Веб програмування на стороні сервера\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juliankles/backend-course-2025-6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juliankles/backend-course-2025-6/issues"
+  },
+  "homepage": "https://github.com/Juliankles/backend-course-2025-6#readme"
+}
