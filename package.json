@@ -1,20 +1,23 @@
 {
   "name": "backend-course-2025-6",
   "version": "1.0.0",
-  "description": "Лабораторна робота №6 з курсу \"Веб програмування на стороні сервера\"",
+  "description": "Lab 6 - Inventory service",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Juliankles/backend-course-2025-6.git"
+    "start": "node index.js --host 127.0.0.1 --port 3000 --cache ./cache",
+    "dev": "nodemon index.js --host 127.0.0.1 --port 3000 --cache ./cache"
   },
   "keywords": [],
-  "author": "",
+  "author": "Твоє імʼя",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Juliankles/backend-course-2025-6/issues"
+  "dependencies": {
+    "commander": "^13.0.0",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "superagent": "^10.0.0",
+    "swagger-ui-express": "^5.0.0"
   },
-  "homepage": "https://github.com/Juliankles/backend-course-2025-6#readme"
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
